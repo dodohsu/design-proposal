@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>J:COM LINK VOD — 2026 J:COM STREAM RECAP · Proposal B</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Bebas+Neue&family=Baloo+2:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="body--proposal-b">
+
+<!-- ========== NAV ========== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo" aria-label="J:COM LINK VOD">
+      <span class="logo-mark">J:COM</span>
+      <span class="logo-sub">LINK VOD</span>
+    </a>
+    <nav class="nav__menu" aria-label="Main navigation">
+      <a href="index.html">Proposal A</a>
+      <a href="proposal-b.html" class="is-active">Proposal B</a>
+      <a href="#stories">Stories</a>
+    </nav>
+    <div class="nav__cta">
+      <button class="btn btn--ghost" type="button">Sign In</button>
+      <button class="btn btn--primary" type="button">Start My Recap →</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ========== HERO (same as Proposal A) ========== -->
+<section class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="blob blob--orange"></div>
+    <div class="blob blob--pink"></div>
+    <div class="blob blob--purple"></div>
+    <div class="grain"></div>
+  </div>
+
+  <div class="hero__year" aria-hidden="true">2026</div>
+
+  <div class="hero__floating" aria-hidden="true">
+    <div class="tile tile-1"><span>🎬</span></div>
+    <div class="tile tile-2"><span>🍿</span></div>
+    <div class="tile tile-3"><span>📺</span></div>
+    <div class="tile tile-4"><span>🎞️</span></div>
+    <div class="tile tile-5"><span>🌙</span></div>
+    <div class="tile tile-6"><span>⭐</span></div>
+  </div>
+
+  <!-- ========== HERO CELEBRATION: Official J:COM / ZAQ mascot ========== -->
+  <div class="hero-celebration" aria-hidden="true">
+
+    <!-- Official J:COM / ZAQ mascot.
+         Save the client-provided PNG cutout as `assets/zaq-mascot.png`.
+         If that file is missing, we fall back to the hotlinked J:COM CDN image so
+         the layout never breaks. -->
+    <figure class="jcom-mascot">
+      <img
+        src="assets/zaq-mascot.png"
+        onerror="this.onerror=null;this.src='https://zaq.jp/assets/cms/2022/03/tokushima.jpg';this.parentElement.classList.add('jcom-mascot--fallback');"
+        alt="J:COM ZAQ mascot"
+        referrerpolicy="no-referrer"
+        loading="lazy" />
+    </figure>
+
+  </div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow">
+      <span class="dot"></span> 2026 J:COM STREAM RECAP
+    </p>
+    <h1 class="hero__title">
+      <em>2026</em> J:COM<br />
+      STREAM RECAP
+    </h1>
+    <p class="hero__sub">
+      348 hours on the sofa. 127 titles. Countless late-night "just one more episode."<br />
+      Tap through your year on J:COM — a story you can share in a swipe.
+    </p>
+
+    <div class="hero__actions">
+      <button class="btn btn--primary btn--lg" type="button">
+        <span>View My Recap</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </button>
+      <button class="btn btn--ghost btn--lg" type="button">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+        <span>Watch Trailer</span>
+      </button>
+    </div>
+
+    <ul class="hero__meta">
+      <li><strong>3,240,000+</strong><span>members joined</span></li>
+      <li><strong>15,000+</strong><span>hours of stories</span></li>
+      <li><strong>52 weeks</strong><span>together</span></li>
+    </ul>
+  </div>
+
+  <a class="hero__scroll" href="#stories" aria-label="Scroll down">
+    <span>SCROLL</span>
+    <svg width="14" height="24" viewBox="0 0 14 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="7" y1="2" x2="7" y2="22"/>
+      <polyline points="2 17 7 22 12 17"/>
+    </svg>
+  </a>
+</section>
+
+<!-- ========== SECOND SCREEN: Phones with Story ========== -->
+<section class="stories" id="stories">
+  <div class="stories__bg" aria-hidden="true">
+    <div class="stories-blob stories-blob--1"></div>
+    <div class="stories-blob stories-blob--2"></div>
+    <div class="stories-blob stories-blob--3"></div>
+  </div>
+
+  <div class="section-head section-head--center stories__head">
+    <span class="chapter">CHAPTER · YOUR STORY</span>
+    <h2>Swipe through <em>your 2026</em>.</h2>
+    <p>Your recap as a tap-through story — designed for mobile, made to share.</p>
+  </div>
+
+  <div class="phones">
+
+    <!-- ========== PHONE 1 · TOP TITLES ========== -->
+    <div class="phone phone--1">
+      <div class="phone__frame">
+        <div class="phone__button phone__button--power"></div>
+        <div class="phone__button phone__button--vol1"></div>
+        <div class="phone__button phone__button--vol2"></div>
+        <div class="phone__screen">
+
+          <!-- Story progress bars -->
+          <div class="story-progress">
+            <div class="pill pill--done"></div>
+            <div class="pill pill--active"></div>
+            <div class="pill"></div>
+            <div class="pill"></div>
+          </div>
+
+          <!-- Top row: brand + controls -->
+          <div class="story-header">
+            <div class="story-brand">
+              <span class="story-brand__dot"></span>
+              <span class="story-brand__name">J:COM</span>
+            </div>
+            <div class="story-header__icons">
+              <button aria-label="More"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg></button>
+              <button aria-label="Sound"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button>
+              <button aria-label="Close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="story-body story-body--rank">
+            <h3 class="story-title">Your top titles</h3>
+
+            <!-- HERO CARD · #1 Demon Slayer (mockup cover) -->
+            <article class="rank-hero">
+              <div class="rank-hero__watermark" aria-hidden="true">1</div>
+              <div class="rank-hero__cover" aria-hidden="true">
+                <div class="rank-hero__mock">
+                  <span class="rank-hero__mock-jp">鬼滅</span>
+                  <span class="rank-hero__mock-en">MOCKUP</span>
+                </div>
+              </div>
+              <div class="rank-hero__meta">
+                <span class="rank-hero__badge">👑 Most Watched</span>
+                <h4 class="rank-hero__title">Demon Slayer</h4>
+                <p class="rank-hero__sub">47h · Anime</p>
+              </div>
+            </article>
+
+            <!-- 2×2 GRID · #2–5 uniform mini cards -->
+            <div class="rank-grid">
+              <article class="rank-mini">
+                <div class="rank-mini__cover">
+                  <span class="rank-mini__num">2</span>
+                  <img src="https://image-transfer.saku.ottfs.com/kkstream/image/upload/w_400,ar_16:9,c_fill,g_center/v1781753192/fdjtlnd0b8zy7rbcpzuc.jpg" alt="Super Mario" referrerpolicy="no-referrer" loading="lazy" />
+                </div>
+                <span class="rank-mini__title">Super Mario Bros.</span>
+              </article>
+              <article class="rank-mini">
+                <div class="rank-mini__cover">
+                  <span class="rank-mini__num">3</span>
+                  <img src="https://image-transfer.saku.ottfs.com/kkstream/image/upload/w_400,ar_16:9,c_fill,g_center/v1782358903/ul2ieujmkfgrnhxydhsq.jpg" alt="VIVANT" referrerpolicy="no-referrer" loading="lazy" />
+                </div>
+                <span class="rank-mini__title">VIVANT</span>
+              </article>
+              <article class="rank-mini">
+                <div class="rank-mini__cover">
+                  <span class="rank-mini__num">4</span>
+                  <img src="https://image-transfer.saku.ottfs.com/kkstream/image/upload/w_400,ar_16:9,c_fill,g_center/v1782360076/jvhmdbh6wuh89yv08t7z.jpg" alt="Tsumi to Aku" referrerpolicy="no-referrer" loading="lazy" />
+                </div>
+                <span class="rank-mini__title">Tsumi to Aku</span>
+              </article>
+              <article class="rank-mini">
+                <div class="rank-mini__cover">
+                  <span class="rank-mini__num">5</span>
+                  <img src="https://image-transfer.saku.ottfs.com/kkstream/image/upload/w_400,ar_16:9,c_fill,g_center/v1782958105/sfitol0lg1jo5pfhrvr3.jpg" alt="Working Man" referrerpolicy="no-referrer" loading="lazy" />
+                </div>
+                <span class="rank-mini__title">Working Man</span>
+              </article>
+            </div>
+          </div>
+
+          <!-- Bottom actions -->
+          <div class="story-actions">
+            <button class="sa-icon" aria-label="Download">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </button>
+            <button class="sa-share">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4 20-7Z"/><path d="M22 2 11 13"/></svg>
+              <span>Share</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== PHONE 2 · MOMENTS FROM YOUR YEAR ========== -->
+    <div class="phone phone--2">
+      <div class="phone__frame">
+        <div class="phone__button phone__button--power"></div>
+        <div class="phone__button phone__button--vol1"></div>
+        <div class="phone__button phone__button--vol2"></div>
+        <div class="phone__screen">
+
+          <div class="story-progress">
+            <div class="pill pill--done"></div>
+            <div class="pill pill--done"></div>
+            <div class="pill pill--active"></div>
+            <div class="pill"></div>
+          </div>
+
+          <div class="story-header">
+            <div class="story-brand">
+              <span class="story-brand__dot"></span>
+              <span class="story-brand__name">J:COM</span>
+            </div>
+            <div class="story-header__icons">
+              <button aria-label="More"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg></button>
+              <button aria-label="Sound"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button>
+              <button aria-label="Close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+            </div>
+          </div>
+
+          <div class="story-body">
+            <h3 class="story-title">Moments from your year</h3>
+
+            <div class="moment-card moment-card--1">
+              <span class="moment-card__label">Early 2026</span>
+              <p class="moment-card__text">Deep-dived into<br/>the VIVANT universe</p>
+            </div>
+
+            <div class="moment-card moment-card--2">
+              <span class="moment-card__label">Mid-2026</span>
+              <p class="moment-card__text">Sunday nights<br/>were Mario nights</p>
+            </div>
+
+            <div class="moment-card moment-card--3">
+              <span class="moment-card__label">Late 2026</span>
+              <p class="moment-card__text">Locked in on<br/>late-night J-drama</p>
+            </div>
+          </div>
+
+          <div class="story-actions">
+            <button class="sa-icon" aria-label="Download">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </button>
+            <button class="sa-share">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4 20-7Z"/><path d="M22 2 11 13"/></svg>
+              <span>Share</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== PHONE 3 · TOP INTERESTS ========== -->
+    <div class="phone phone--3">
+      <div class="phone__frame">
+        <div class="phone__button phone__button--power"></div>
+        <div class="phone__button phone__button--vol1"></div>
+        <div class="phone__button phone__button--vol2"></div>
+        <div class="phone__screen">
+
+          <div class="story-progress">
+            <div class="pill pill--done"></div>
+            <div class="pill pill--done"></div>
+            <div class="pill pill--done"></div>
+            <div class="pill pill--active"></div>
+          </div>
+
+          <div class="story-header">
+            <div class="story-brand">
+              <span class="story-brand__dot"></span>
+              <span class="story-brand__name">J:COM</span>
+            </div>
+            <div class="story-header__icons">
+              <button aria-label="More"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg></button>
+              <button aria-label="Sound"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button>
+              <button aria-label="Close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+            </div>
+          </div>
+
+          <div class="story-body">
+            <h3 class="story-title">Your top interests</h3>
+            <ul class="interest-list">
+              <li>
+                <span class="i-rank">1</span>
+                <div class="i-body">
+                  <span class="i-name">Watching J-Drama</span>
+                  <div class="i-track"><span style="--w:88%"></span></div>
+                </div>
+              </li>
+              <li>
+                <span class="i-rank">2</span>
+                <div class="i-body">
+                  <span class="i-name">Anime marathons</span>
+                  <div class="i-track"><span style="--w:72%"></span></div>
+                </div>
+              </li>
+              <li>
+                <span class="i-rank">3</span>
+                <div class="i-body">
+                  <span class="i-name">Family movie nights</span>
+                  <div class="i-track"><span style="--w:60%"></span></div>
+                </div>
+              </li>
+              <li>
+                <span class="i-rank">4</span>
+                <div class="i-body">
+                  <span class="i-name">Overseas dramas</span>
+                  <div class="i-track"><span style="--w:44%"></span></div>
+                </div>
+              </li>
+              <li>
+                <span class="i-rank">5</span>
+                <div class="i-body">
+                  <span class="i-name">Late-night docs</span>
+                  <div class="i-track"><span style="--w:28%"></span></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="story-actions">
+            <button class="sa-icon" aria-label="Download">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </button>
+            <button class="sa-share">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4 20-7Z"/><path d="M22 2 11 13"/></svg>
+              <span>Share</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="stories__cta">
+    <button class="btn btn--primary btn--lg">
+      <span>Get Your Recap</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </button>
+    <p class="stories__hint">Full recap unlocks in the J:COM LINK VOD app · Available Dec 12, 2026</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="logo-mark">J:COM</span>
+      <span class="logo-sub">LINK VOD</span>
+      <p>あたらしいを、あたりまえに。<br/><em style="color:rgba(255,255,255,.5);font-style:italic;">Making the new feel everyday.</em></p>
+    </div>
+    <div class="footer__cols">
+      <div>
+        <h5>Proposals</h5>
+        <a href="index.html">Proposal A — Full Recap</a>
+        <a href="proposal-b.html">Proposal B — Story Format</a>
+      </div>
+      <div>
+        <h5>Stream Recap</h5>
+        <a href="#">2026 Stream Recap</a>
+        <a href="#">How It Works</a>
+        <a href="#">Privacy Notice</a>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <a href="#">FAQ</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 J:COM Co., Ltd. Concept demo — not an official product.</span>
+    <span>Proposal B · v2026.12.01</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
